@@ -4,7 +4,7 @@ const WebSocket = require('ws');
 const path = require('path');
 const EventHubReader = require('./scripts/event-hub-reader.js');
 
-const iotHubConnectionString = "HostName=amayandmehul.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=IbFY19yUexDJ6opPEE7b0eQZnJBy3DwjgoqdyXM95Kc=";
+const iotHubConnectionString = "HostName=<Add Host Name here>;SharedAccessKeyName=<Add Shared Access Key Name Here>;SharedAccessKey=<Add Shared Access Key Here>";
 const eventHubConsumerGroup = "abc";
 
 // Redirect requests to the public subdirectory to the root
